@@ -8,6 +8,8 @@ def solution(id_list, report, k):
     id_dic = {id:0 for id in id_list}
     #print(id_dic)
 
+    #test
+
     # report에 배열[1] 값만 불러와서 횟수 세기(딕셔너리 사용해보기)
     ## 리스트 사용해서 분류하여 딕셔너리에 저장하기
     called_list = []
