@@ -50,7 +50,7 @@ print(solution(["con", "ryan"], ["ryan con", "ryan con", "ryan con", "ryan con"]
 
 # num_police = {
 #     "muzi":0,
-#     "frodo":2,
+#     "frodo":2,gi
 #     "apeach":0,
 #     "neo":2,
 # }
