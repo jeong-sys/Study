@@ -2,11 +2,6 @@ def solution(gems):
     # 현재 구간
     answer = []
 
-    ### 위의 2개 계속 반복
-    e = 0
-    while e < len(gems):
-        print('a')
-
     start_idx = 0
     # 최소한 사는 개수(초기값 => 최대)
     minimum = len(gems)
