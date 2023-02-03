@@ -20,8 +20,12 @@ def solution(input_string):
 
     alph_dic = {alph: 0 for alph in alph_nxt}
 
+    print(alph_nxt)
+
     # 2회 이상인지 확인하기
+    # 반복문을 통해서 딕셔너리에 동일한 문자가 존재하면 숫자 증가
     for alph_re in alph_nxt:
+        print(alph_re)
         if alph_dic[alph_re] != None:
             alph_dic[alph_re] += 1
 
