@@ -1,3 +1,5 @@
+# 재귀를 사용한 DFS
+
 def solution(k, dungeons):
     # 지금까지 클리어한 던전의 개수
     answer = -1
