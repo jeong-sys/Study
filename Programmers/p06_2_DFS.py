@@ -1,6 +1,8 @@
-from itertools import permutations, combinations
+from itertools import permutations
 
-# 조합 사용하기
+'''
+조합 사용해서 DFS 풀기
+'''
 def solution(k, dungeons):
     answer = -1
     for case in permutations(dungeons, len(dungeons)):
@@ -14,5 +16,5 @@ def solution(k, dungeons):
             answer = count
     return answer
 
-
 print(solution(80, [[80,20],[50,40],[30,10]]))
+

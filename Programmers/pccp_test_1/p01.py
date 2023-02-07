@@ -17,10 +17,7 @@ def solution(input_string):
 
     f = len(alph_list) -1
     alph_nxt += alph_list[f]
-
     alph_dic = {alph: 0 for alph in alph_nxt}
-
-    print(alph_nxt)
 
     # 2회 이상인지 확인하기
     # 반복문을 통해서 딕셔너리에 동일한 문자가 존재하면 숫자 증가

@@ -1,7 +1,6 @@
 def solution(id_list, report, k):
 
     answer = [] # 정답
-
     '''1회 신고 적용'''
     report_f = set(report) # report중복 제거
     

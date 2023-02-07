@@ -7,7 +7,6 @@ def solution(ability):
     answer = 0
 
     # 순열로 종목 수만큼 ability 생성 5P3
-    ## score 한번 나오면 그 다음, for문 돌기
     for r in permutations(ability, play_num):
         # 한번 돌 때마다 점수 0으로 초기화
         score = 0
