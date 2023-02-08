@@ -20,9 +20,10 @@ for i in range(int(k)):
     line_list.append(int(input()))
 ###
 
-start = 1
-end = max(line_list)
+start = 1  # 가장 짧은 길이
+end = max(line_list)  # 랜선 중 가장 긴 길이
 
+# 이분탐색이 끝날 때까지 while
 # 1부터 가장 긴 랜선까지 길이
 while start <= end:
     # 중간 위치
@@ -30,6 +31,7 @@ while start <= end:
     # 랜선의 수
     line = 0
     # 랜선을 자른 수
+    # 모든 랜선 값은 mid로 나누어 몇개의 랜선이 나오는지
     for i in range(int(k)):
         line += line_list[i] // mid
     # 랜선 자른 수가 목표 값보다 큰 경우
