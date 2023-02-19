@@ -7,7 +7,7 @@ return값 : target넘버를 만들 수 있는 경우의 수
 2) +4-1+2-1 = 4
 
 ==> 던전깨기 문제랑 유사한듯? , DFS사용하는건
-// 순열로도 풀 수 있을 것 같은데 한번 해보기
+// 순열로도 풀 수 있을 것 같은데 한번 해보기(?)
 '''
 # 재귀를 이용한 DFS 
 def solution(numbers, target): 
@@ -24,7 +24,7 @@ def solution(numbers, target):
                 nonlocal answer
                 answer += 1
             return
-        # 숫자 하나씩 더해주기, 부호는 바뀌지만 값은 더해주는 거임
+        # 숫자 더해주기
         else:
             play(n+1, result + numbers[n])
             play(n+1, result - numbers[n])
