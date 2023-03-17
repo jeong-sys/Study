@@ -35,22 +35,22 @@ def solution(relation):
     # 나머지 것들도 재귀 함수를 사용하여 동일 하게 하려고 했지만 위에서 set을 진행하여 사용할 수가 없음.
     # set 해버려서 쓸 수가 없음.
     # 해당 부분 삭제후 진행하려고 함.
-    def cal_2(m):
-        answer2 = 0
-
-        if m == 0:
-
-            # (?)
-
-        else:
-            pass
-
-        return answer2
+    # def cal_2(m):
+    #     answer2 = 0
+    #
+    #     if m == 0:
+    #
+    #         # (?)
+    #
+    #     else:
+    #         pass
+    #
+    #     return answer2
 
     f_answer1 = cal(number) + cal(name) + cal(subject) + cal(grade)
-    f_answer2 = cal_2(cal(number)) + cal_2(cal(name)) + cal_2(cal(subject)) + cal_2(cal(grade))
+    # f_answer2 = cal_2(cal(number)) + cal_2(cal(name)) + cal_2(cal(subject)) + cal_2(cal(grade))
 
-    f_answer = f_answer1 + f_answer2
+    # f_answer = f_answer1 + f_answer2
 
     return f_answer
 
