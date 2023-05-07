@@ -18,3 +18,4 @@ for i in range(n):
     # x 가 0이 아닌경우
     else:
         heapq.heappush(heap, x)
+
